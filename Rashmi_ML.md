@@ -5,8 +5,8 @@
 * Random Forests
 * Ensmeble Leaning Methods
 * Clustering
-* Dimensionality Redcution
+* Dimensionality Reduction
 * Support Vector Machines
-* Boosting ALgorithms
+* Boosting Algorithms
 * Bias-Variance
 * Evalutation Metrics (precision, recall, F1, ROC Curve, AOC score)
