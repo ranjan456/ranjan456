@@ -1,0 +1,35 @@
+1. Create measures and show them in a card:
+		name of the person with maximum balance
+		name of the person with minimum balance
+
+2. Create a column named bonus which is calcuated based on the following conditions:
+		white collar and scotland = balance + 101
+		white collar and england = balance + 105
+		white collar and wales = balance + 102
+		white collar and northern ireland = balance + 104
+		blue collar and scotland = balance + 90
+		blue collar and england = balance + 95
+		blue collar and wales = balance + 92
+		blue collar and northern ireland = balance + 94
+		others = balance/2
+
+bonus = SWITCH(TRUE(),
+            AND('P6-UK-Bank-Customers'[Job Classification] = "White Collar" , 'P6-UK-Bank-Customers'[Region] = "Scotland") , 'P6-UK-Bank-Customers'[Balance] + 101 ,
+            AND('P6-UK-Bank-Customers'[Job Classification] = "White Collar" , 'P6-UK-Bank-Customers'[Region] = "England") , 'P6-UK-Bank-Customers'[Balance] + 105 , 
+            AND('P6-UK-Bank-Customers'[Job Classification] = "White Collar" , 'P6-UK-Bank-Customers'[Region] = "Wales") , 'P6-UK-Bank-Customers'[Balance] + 102 , 
+            AND('P6-UK-Bank-Customers'[Job Classification] = "White Collar" , 'P6-UK-Bank-Customers'[Region] = "Northern Ireland") , 'P6-UK-Bank-Customers'[Balance] + 104 , 
+            AND('P6-UK-Bank-Customers'[Job Classification] = "Blue Collar" , 'P6-UK-Bank-Customers'[Region] = "Scotland") , 'P6-UK-Bank-Customers'[Balance] + 90 , 
+            AND('P6-UK-Bank-Customers'[Job Classification] = "Blue Collar" , 'P6-UK-Bank-Customers'[Region] = "England") , 'P6-UK-Bank-Customers'[Balance] + 95 , 
+            AND('P6-UK-Bank-Customers'[Job Classification] = "Blue Collar" , 'P6-UK-Bank-Customers'[Region] = "Wales") , 'P6-UK-Bank-Customers'[Balance] +92 , 
+            AND('P6-UK-Bank-Customers'[Job Classification] = "Blue Collar" , 'P6-UK-Bank-Customers'[Region] = "Northern Ireland") , 'P6-UK-Bank-Customers'[Balance] + 94 , 
+            'P6-UK-Bank-Customers'[Balance]/2
+            )
+
+
+
+3. Create a column classify_cust_doj based on the date of joining of the customer. If customer joined in the first 6 months of the year then the value should be C1
+   C2.
+		classify_cust_doj = IF(MONTH('P6-UK-Bank-Customers'[Date Joined]) <= 6 , "C1" , "C2")
+
+4.  
+		iseven = IF(MOD('P6-UK-Bank-Customers'[Customer ID],2) = 0 , "yes" , "no")
