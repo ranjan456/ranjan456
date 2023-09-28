@@ -20,8 +20,8 @@ My teaching philosophy is to make complex data science concepts easy to understa
 ## Contact Me 📬
 Feel free to reach out to me if you have any questions, want to discuss a potential project, or simply want to chat about data science.
 
-- Email: [mangarajrashmiranjan01@gmail.com](mailto:mangarajrashmiranjan01@gmail.com)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/rashmi-ranjan-mangaraj-0b0836168/)
+- Email: [Rashmi Ranjan Mangaraj](mailto:mangarajrashmiranjan01@gmail.com)
+- LinkedIn: [Rashmi Ranjan Mangaraj](https://www.linkedin.com/in/rashmi-ranjan-mangaraj-0b0836168/)
 
 
 ## Let's Dive into the World of Data Science Together! 🚀📈
