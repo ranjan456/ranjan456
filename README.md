@@ -29,9 +29,3 @@ I'm excited to embark on this data science journey with you. Whether you're a be
 
 ---
 
-**Key Takeaways:**
-- I offer data science workshops, coaching, project guidance, online resources, and career advice.
-- My teaching approach focuses on simplifying complex concepts.
-- Contact me via email, LinkedIn, or Twitter for inquiries or discussions.
-
-
