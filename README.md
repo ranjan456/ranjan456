@@ -1,4 +1,4 @@
-# Data Science Trainer 👨‍🏫📊
+# Data Science Expert 👨‍🏫📊
 
 ## About Me 🧑‍🏫
 I'm a passionate and experienced data science trainer dedicated to helping individuals and organizations unlock the power of data. With a strong background in data analysis, machine learning, and data visualization, I'm here to guide you on your data science journey.
